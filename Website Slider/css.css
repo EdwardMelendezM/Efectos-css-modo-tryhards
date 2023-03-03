@@ -79,3 +79,44 @@
 .tabs input:nth-child(3):checked ~ .content {
   left: -200vw;
 }
+.content .box .contentBx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.content .box .contentBx ion-icon {
+  font-size: 12em;
+  color: #fff;
+  --ionicon-stroke-width: 16px;
+}
+.content .box .contentBx h2 {
+  font-size: 3em;
+  color: #fff;
+}
+.content .box .contentBx p {
+  font-size: 1.2em;
+  color: #fff;
+  max-width: 700px;
+  text-align: center;
+}
+.content .box .contentBx button {
+  font-size: 1.2em;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 15px 35px;
+  background-color: #fff;
+  color: #333;
+  letter-spacing: 0.05em;
+  margin-top: 10px;
+  font-weight: 600;
+  border: none;
+  border-radius: 40px;
+  transition: 0.5s;
+}
+
+.content .box .contentBx button:hover {
+  letter-spacing: 0.2em;
+}
